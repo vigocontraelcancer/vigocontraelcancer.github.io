@@ -1,0 +1,17 @@
+/* Mixins
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin transition {
+  -webkit-translate:ease all 0.6s;
+     -moz-translate:ease all 0.6s;
+      -ms-translate:ease all 0.6s;
+       -o-translate:ease all 0.6s;
+          translate:ease all 0.6s;
+}

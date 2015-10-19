@@ -1553,6 +1553,38 @@ ul p {
   font-size: 2.4rem;
 }
 
+/*-- Colaboradores
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.pat-container {
+  height: auto;
+  width: 100%;
+  background: white;
+}
+
+.pat-fila1,
+.pat-fila2,
+.pat-fila3 {
+  width: 90%;
+  height: 100px;
+  display: table;
+  margin: 0 auto;
+}
+
+.pat-fila1 img {
+  width: 30%;
+  height: auto;
+}
+
+.pat-fila2 img {
+  width: 20%;
+  height: auto;
+}
+
+.pat-fila3 img {
+  width: 17%;
+  height: auto;
+}
+
 /*-- Contact
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .forth-container {

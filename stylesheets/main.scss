@@ -90,11 +90,10 @@ b {font-family:$sp-font;}
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .intro-video-overlay {
     width:100%;
-    display:none;
     position: fixed;
     background:rgba(0,0,0,0.9);
     z-index:150;
-    opacity: 0;
+    opacity: 1;
     &:hover {
         cursor: url('../images/closecursor.png'), pointer;
     }
@@ -105,7 +104,6 @@ b {font-family:$sp-font;}
     background:white;
     height: auto;
     display: absolute;
-    display:none;
     @include vertical-align;
     margin:0 auto;
     left:0;
